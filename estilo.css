@@ -1,0 +1,72 @@
+html {
+    text-align: center;
+    font-family: cursive ;
+    
+}
+
+
+#main-content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(34, 110, 175);
+    padding: 10px;
+    border: 1px solid #9c9c9c;
+
+}
+
+.table-add-notas,
+#tableBoletim {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #9c9c9c;
+    color: black;
+   
+}
+
+caption {
+color: black;
+font-size: 20px;
+}
+
+.table-add-notas th,
+.table-add-notas td {
+    padding: 5px 10px;
+    border: 2px solid black;
+    
+
+}
+
+#tableBoletim {
+    margin-top: 5%;
+}
+
+#tableBoletim td {
+    background-color: beige;
+    color: black;
+    padding: 15px;
+    
+}
+
+input [type="submit"] {
+    width: 120px;
+    border:  1px solid white;
+    padding: 5px 20px;
+    background-color: beige;
+    }
+
+.container-save-grid {
+    margin-top: 20px;
+}
+
+.container-save-grid button {
+    width: 200px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    background-color: beige;
+    font: bold;
+
+}
+
+input [type="number"] {
+    width: 150px;
+}

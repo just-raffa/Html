@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title> Boletim - Aluno: Rafael</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+</head>
+
+<body onload="loadFRomLocalStorage()">
+
+    <section id="main-content">
+
+        <table class="table-add-notas" border="1">
+            <caption>  <h2><b>Inserção de notas</b></h2> </caption>
+            <tr>
+                <th rowspan="2"> Aluno </th>
+                <th colspan="4"> Pontuação </th>
+                
+            </tr>
+
+            <tr>
+                <th> Html </th>
+                <th> CSS </th>
+                <th> Javascript </th>
+            </tr>
+
+            <tr>
+                <td width="30%"><input type="text" maxlenght="15" id="aluno"></td>
+                <td><input type="number" max="100" min="0" id="nota1"></td>
+                <td><input type="number" max="100" min="0" id="nota2"></td>
+                <td><input type="number" max="100" min="0" id="nota3"></td>
+            </tr>
+
+            <tr>
+                <th colspan="4" height="30" >
+                    <input type="submit" value="Adicionar" onclick="addNota()">
+                </th>
+            </tr>
+
+        </table>
+
+            <br>
+            
+        <table border="1" id="tableBoletim">
+            <caption> <h1> <b>Resultado final </b></h1></caption>
+            <tr>
+                <th width="180">Aluno</th>
+                <th>Total</th>
+                <th>Média</th>
+                <th>Resultado</th>
+             </tr>
+
+        </table>
+
+        <div class="container-save-grid">
+            <button type="button" onclick="saveGridToLocalStorage()">Salvar no Browser</button>
+       </div>
+    </section>
+
+    <script type="text/Javascript" src="scripts.js"></script>
+
+</body>
+
+</html>
